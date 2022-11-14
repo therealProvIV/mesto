@@ -1,0 +1,6 @@
+.popup__data {
+    padding: 34px 35px 37px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
