@@ -13,4 +13,4 @@
 
 Взаимодействие с кнопками реализовано с помощью **JavaScript**.
 
-Ознакомиться с проектом можно по [ссылке](https://therealproviv.github.io/russian-travel/)
+Ознакомиться с проектом можно по [ссылке](https://therealproviv.github.io/mesto/)
