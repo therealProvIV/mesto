@@ -30,10 +30,12 @@ const likeClick = (e) => {
 const initCard1 = initCard.querySelector(".element").cloneNode(true);
 initCard1.querySelector(".element__image").src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg';
 initCard1.querySelector(".element__text").textContent="Архыз";
+initCard1.querySelector(".element__image").alt="Архыз";
 initCard1.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard1.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   newImage.src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg';
+  newImage.alt="Архыз";
   newTitle.textContent="Архыз";
 });
 
@@ -41,116 +43,138 @@ initCard1.querySelector(".element__image").addEventListener('click', function() 
 const initCard2 = initCard.querySelector(".element").cloneNode(true);
 initCard2.querySelector(".element__image").src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg';
 initCard2.querySelector(".element__text").textContent="Челябинская область";
+initCard2.querySelector(".element__image").alt="Челябинская область";
 initCard2.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard2.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   newImage.src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg';
+  newImage.alt="Челябинская область";
   newTitle.textContent="Челябинская область";
 });
 
 const initCard3 = initCard.querySelector(".element").cloneNode(true);
 initCard3.querySelector(".element__image").src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg';
 initCard3.querySelector(".element__text").textContent="Иваново";
+initCard3.querySelector(".element__image").alt="Иваново";
 initCard3.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard3.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   newImage.src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg';
+  newImage.alt="Иваново";
   newTitle.textContent="Иваново";
 });
 
 const initCard4 = initCard.querySelector(".element").cloneNode(true);
 initCard4.querySelector(".element__image").src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg';
 initCard4.querySelector(".element__text").textContent="Камчатка";
+initCard4.querySelector(".element__image").alt="Камчатка";
 initCard4.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard4.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   newImage.src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg';
+  newImage.alt="Камчатка";
   newTitle.textContent="Камчатка";
 });
 
 const initCard5 = initCard.querySelector(".element").cloneNode(true);
 initCard5.querySelector(".element__image").src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg';
 initCard5.querySelector(".element__text").textContent="Холмогорский район";
+initCard5.querySelector(".element__image").alt="Холмогорский район";
 initCard5.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard5.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   newImage.src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg';
+  newImage.alt="Холмогорский район";
   newTitle.textContent="Холмогорский район";
 });
 
 const initCard6 = initCard.querySelector(".element").cloneNode(true);
 initCard6.querySelector(".element__image").src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg';
 initCard6.querySelector(".element__text").textContent="Байкал";
+initCard6.querySelector(".element__image").alt="Байкал";
 initCard6.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard6.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   newImage.src='https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg';
+  newImage.alt="Байкал";
   newTitle.textContent="Байкал";
 });
 
 const initCard7 = initCard.querySelector(".element").cloneNode(true);
 initCard7.querySelector(".element__image").src="./images/1.jpg";
 initCard7.querySelector(".element__text").textContent="Владимир";
+initCard7.querySelector(".element__image").alt="Владимир";
 initCard7.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard7.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
   newImage.src="./images/1.jpg";
+  newImage.alt="Владимир";
   newTitle.textContent="Владимир";
 });
 
 const initCard8 = initCard.querySelector(".element").cloneNode(true);
 initCard8.querySelector(".element__image").src="./images/2.jpg";
 initCard8.querySelector(".element__text").textContent="Москва";
+initCard8.querySelector(".element__image").alt="Москва";
 initCard8.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard8.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
   newImage.src="./images/2.jpg";
+  newImage.alt="Москва";
   newTitle.textContent="Москва";
 });
 
 const initCard9 = initCard.querySelector(".element").cloneNode(true);
 initCard9.querySelector(".element__image").src="./images/3.jpg";
 initCard9.querySelector(".element__text").textContent="Санкт-Петербург";
+initCard9.querySelector(".element__image").alt="Санкт-Петербург";
 initCard9.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard9.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
   newImage.src="./images/3.jpg";
+  newImage.alt="Санкт-Петербург";
   newTitle.textContent="Санкт-Петербург";
 });
 
 const initCard10 = initCard.querySelector(".element").cloneNode(true);
 initCard10.querySelector(".element__image").src="./images/4.jpg";
 initCard10.querySelector(".element__text").textContent="Калининград";
+initCard10.querySelector(".element__image").alt="Калининград";
 initCard10.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard10.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
   newImage.src="./images/4.jpg";
+  newImage.alt="Калининград";
   newTitle.textContent="Калининград";
 });
 
 const initCard11 = initCard.querySelector(".element").cloneNode(true);
 initCard11.querySelector(".element__image").src="./images/5.jpg";
 initCard11.querySelector(".element__text").textContent="Челябинск";
+initCard11.querySelector(".element__image").alt="Челябинск";
 initCard11.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard11.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
   newImage.src="./images/5.jpg";
+  newImage.alt="Челябинск";
   newTitle.textContent="Челябинск";
 });
 
 const initCard12 = initCard.querySelector(".element").cloneNode(true);
 initCard12.querySelector(".element__image").src="./images/6.jpg";
 initCard12.querySelector(".element__text").textContent="Казань";
+initCard12.querySelector(".element__image").alt="Казань";
 initCard12.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard12.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
   newImage.src="./images/6.jpg";
+  newImage.alt="Казань";
   newTitle.textContent="Казань";
 });
 
@@ -226,6 +250,7 @@ function infoAddPlace(evt) {
     const newCard = initCard.querySelector(".element").cloneNode(true);
     newCard.querySelector(".element__image").src=NewPlaceUrl.value;
     newCard.querySelector(".element__text").textContent=NewPlaceName.value;
+    newCard.querySelector(".element__image").alt=NewPlaceName.value;
     newCard.querySelector(".element__heart").addEventListener('click', likeClick);
     elements.prepend(newCard);
     newCard.querySelector(".element__bin").addEventListener("click", function() {
