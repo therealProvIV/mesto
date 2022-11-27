@@ -89,13 +89,13 @@ initCard6.querySelector(".element__image").addEventListener('click', function() 
 });
 
 const initCard7 = initCard.querySelector(".element").cloneNode(true);
-initCard7.querySelector(".element__image").src="../images/1.jpg";
+initCard7.querySelector(".element__image").src="mesto/images/1.jpg";
 initCard7.querySelector(".element__text").textContent="Владимир";
 initCard7.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard7.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="../images/1.jpg";
+  newImage.src="mesto/images/1.jpg";
   newTitle.textContent="Владимир";
 });
 
