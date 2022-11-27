@@ -89,68 +89,68 @@ initCard6.querySelector(".element__image").addEventListener('click', function() 
 });
 
 const initCard7 = initCard.querySelector(".element").cloneNode(true);
-initCard7.querySelector(".element__image").src="mesto/images/1.jpg";
+initCard7.querySelector(".element__image").src="/images/1.jpg";
 initCard7.querySelector(".element__text").textContent="Владимир";
 initCard7.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard7.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="mesto/images/1.jpg";
+  newImage.src="/images/1.jpg";
   newTitle.textContent="Владимир";
 });
 
 const initCard8 = initCard.querySelector(".element").cloneNode(true);
-initCard8.querySelector(".element__image").src="../images/2.jpg";
+initCard8.querySelector(".element__image").src="/images/2.jpg";
 initCard8.querySelector(".element__text").textContent="Москва";
 initCard8.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard8.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="../images/2.jpg";
+  newImage.src="/images/2.jpg";
   newTitle.textContent="Москва";
 });
 
 const initCard9 = initCard.querySelector(".element").cloneNode(true);
-initCard9.querySelector(".element__image").src="../images/3.jpg";
+initCard9.querySelector(".element__image").src="/images/3.jpg";
 initCard9.querySelector(".element__text").textContent="Санкт-Петербург";
 initCard9.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard9.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="../images/3.jpg";
+  newImage.src="/images/3.jpg";
   newTitle.textContent="Санкт-Петербург";
 });
 
 const initCard10 = initCard.querySelector(".element").cloneNode(true);
-initCard10.querySelector(".element__image").src="../images/4.jpg";
+initCard10.querySelector(".element__image").src="/images/4.jpg";
 initCard10.querySelector(".element__text").textContent="Калининград";
 initCard10.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard10.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="../images/4.jpg";
+  newImage.src="/images/4.jpg";
   newTitle.textContent="Калининград";
 });
 
 const initCard11 = initCard.querySelector(".element").cloneNode(true);
-initCard11.querySelector(".element__image").src="../images/5.jpg";
+initCard11.querySelector(".element__image").src="/images/5.jpg";
 initCard11.querySelector(".element__text").textContent="Челябинск";
 initCard11.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard11.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="../images/5.jpg";
+  newImage.src="/images/5.jpg";
   newTitle.textContent="Челябинск";
 });
 
 const initCard12 = initCard.querySelector(".element").cloneNode(true);
-initCard12.querySelector(".element__image").src="../images/6.jpg";
+initCard12.querySelector(".element__image").src="/images/6.jpg";
 initCard12.querySelector(".element__text").textContent="Казань";
 initCard12.querySelector(".element__heart").addEventListener('click', likeClick);
 initCard12.querySelector(".element__image").addEventListener('click', function() {
   popupImage.classList.add("popup_opened");
   sizeSwitch.classList.add("popup__container_image-small");
-  newImage.src="../images/6.jpg";
+  newImage.src="/images/6.jpg";
   newTitle.textContent="Казань";
 });
 
