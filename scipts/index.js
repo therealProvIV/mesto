@@ -268,7 +268,7 @@ function infoAddPlace(evt) {
 //Image
 function ClickCloseImage() {
   popupImage.classList.remove("popup_opened");
-  sizeSwitch.classList.remove("popup__container_image-small");
+  sizeSwitch.classList.remove("popup__container_image_small");
 }
 
 
