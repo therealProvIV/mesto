@@ -92,8 +92,7 @@ buttonCloseProfile.addEventListener('click', () => {
 
 buttonAdd.addEventListener('click', () => {
   openPopup(popupPlace);
-  newPlaceName.value = '';
-  newPlaceUrl.value = '';
+  formSavePlace.reset();
 });
 
 buttonClosePlace.addEventListener('click', () => {
