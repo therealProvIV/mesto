@@ -7,6 +7,7 @@ const buttonAdd = document.querySelector(".profile__add-button");
 const buttonCloseProfile = document.querySelector(".popup__close-button_profile");
 const buttonClosePlace = document.querySelector(".popup__close-button_place");
 const buttonCloseImage = document.querySelector(".popup__close-button_image");
+const buttonSavePlace = document.querySelector(".popup__save-button_place")
 const popupProfile = document.querySelector(".popup_profile");
 const popupPlace = document.querySelector(".popup_place");
 const formSaveProfile = document.querySelector(".popup__data_profile");
@@ -93,6 +94,7 @@ buttonCloseProfile.addEventListener('click', () => {
 buttonAdd.addEventListener('click', () => {
   openPopup(popupPlace);
   formSavePlace.reset();
+  buttonSavePlace.setAttribute('disabled', 'true');
 });
 
 buttonClosePlace.addEventListener('click', () => {
